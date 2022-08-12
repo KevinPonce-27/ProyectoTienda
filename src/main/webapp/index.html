@@ -1,10 +1,70 @@
 <!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
 <html>
     <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Iniciar Sesión | MetaStore</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/png" href="images/cart.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <!-- Boxiocns CDN Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
+
     <body>
-        <h1>Hello World!</h1>
+        <div class="container" id="container">
+            <!--<div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Crear Cuenta</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="facebook-fill"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <button>Ingresar</button>
+                </form>
+            </div>-->
+           <i class="fa-brands fa-facebook"></i>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Iniciar Sesión</h1>
+                    <div class="social-container">
+                        
+                        <a href="#" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <span>o utilize su cuenta</span>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Contraseña" />
+                    <a href="#">¿Olvidate tu contraseña?</a>
+                    <button>Ingresar</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                   <!-- <div class="overlay-panel overlay-left">
+                        <h1>Bienvenido de nuevo!</h1>
+                        <p>To keep connected with us please login with your personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>-->
+                    <div class="overlay-panel overlay-right">
+                        
+                        <img src="images/METASTORE.png" width="201" height="132" alt="METASTORE"/>
+
+                        <h1>Bienvenido !</h1>
+                        <p>¿Aún no estás registrado?, ¡Únete a la mejor tienda online!</p>
+                        <button class="ghost" id="signUp">Registrarte</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
